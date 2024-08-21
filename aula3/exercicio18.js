@@ -112,7 +112,7 @@ function imprimeNrosSaldos(contas){
 }
 
 function depositoInicial(contas,valor){
-    validate(arguments, ["Array.<ContaComum>", "Number"]);
+
     for (let conta of contas){
         conta.deposito(valor);        
     }
